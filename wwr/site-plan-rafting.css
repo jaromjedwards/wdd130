@@ -27,15 +27,13 @@ Fonts are separated by a & */
   --nav-hover-background-color: #214F4B; 
 }
 
-
-/*  Look around below...but DON'T CHANGE ANYTHING! */
-
 body {
-  max-width: 960px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: #214F4B;
 }
 img {
   display: block;
@@ -58,7 +56,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: var(--headline-color-on-color)
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -112,13 +110,17 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  background-color:#1BE7FF;
+
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
+  text-align: center;
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  color: #1BE7FF;
 }
 .sitemap {
   display: grid;
@@ -163,3 +165,69 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.hero-msg h1 {
+  text-align: center;
+}
+.hero-msg h4 {
+  text-align: center;
+
+}
+
+.button-box {  
+  text-align: center;
+}
+
+.main section {
+  text-align: center;
+}
+#background {
+height: 725px;
+background-color: #1BE7FF;
+}
+.book, .join{
+  background-color:#F0F465;
+  color: black;
+  text-decoration: none;
+}
+.book:hover, .join:hover{
+  background-color: #1BE7FF;
+  color: #214F4B;
+}
+.msg{
+  background-color: #1BE7FF;
+}
+footer{
+  background-color:#F0F465
+}
+.home-title{
+  color: white;
+}
+h4{
+  color:#1BE7FF;
+}
+.msg h2{
+  color: black;
+}
+.msg p{
+  color:#214F4B
+}
+footer a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+footer a:hover{
+  color: white;
+}
+.logo{
+  width: 80px;
+}
+.icon{
+  width: 80px;
+}
+#hero-img{
+  width: 100%;
+}
+footer p a:hover {
+  text-decoration: underline;
+} 
