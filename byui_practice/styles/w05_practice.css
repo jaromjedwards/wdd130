@@ -1,0 +1,22 @@
+
+#top{
+    width: 100%;
+    margin: 0;
+}
+
+div{
+    background-color: gray;
+    margin: 0;
+}
+#images {
+    width: 20%;
+    border: 7px solid;
+    border-radius: 100px;
+    border-color: rgb(70, 67, 67);
+    margin: 5%; 
+}
+
+body{
+    font-size: 0;
+    margin: 0;
+}

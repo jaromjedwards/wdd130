@@ -1,0 +1,16 @@
+p {
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+  
+#images{
+    width: 20%;
+    border-radius: 50px;
+  }
