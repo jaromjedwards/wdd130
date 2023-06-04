@@ -103,13 +103,14 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
-nav {
-  background-color: var(--nav-background-color);
+nav{
+  color: #7641F1;
+  background-color: black;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
 }
-nav  {
+nav {
   list-style-type: none;
   display: flex;
 
@@ -179,4 +180,11 @@ nav a:hover {
 }
 .lantn_logo{
   width: 100px;
+}
+.n{
+  color: #7641F1;
+}
+.c{
+  color: #90fcf9;
+  background-color: #153ae0;
 }
