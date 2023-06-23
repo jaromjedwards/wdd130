@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Contact Us | Dry Oar Boating</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .message {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+    <script>
+        function showMessage() {
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message");
+            message.innerHTML = "Thank you for submitting your email: " + email;
+            message.style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="Images/logo.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page_2.html">Page 2</a>
+            <a href="site-plan-rafting.html">Site Plan</a>
+            <a href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div id="content">
+        <div id="rivers">
+            <div id="rivers-box">
+            </div>
+            <section id="rivers-msg">
+                <h1 class="rivers-title">Contact Us</h1>
+            </section>
+        </div>
+
+        <main>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <br>
+                <button type="button" onclick="showMessage()">Submit</button>
+            </form>
+            <div id="message" class="message"></div>
+        </main>
+
+        <footer>
+            <p>Dry Oar &copy; 2023 - Jarom Edwards</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" class="social">
+                    <img src="Images/facebook.png" alt="fb icon" class="social">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="Images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="Images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
