@@ -1,0 +1,120 @@
+body {
+    margin: auto;
+    background-color: black;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 15% 25% 30% 30%;
+    grid-template-rows: 7em;
+    background-color: black;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #90fcf9;
+    z-index: 2;
+    margin-top: 0;
+  }
+  
+  .logo_link {
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 1;
+    object-fit: cover;
+    width: 50%;
+    margin-top: 15%;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    grid-row: 1;
+    margin-top: 25%;
+    color: #90fcf9;
+  }
+  
+  nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Update to use repeat() function */
+    grid-column: 3 / span 4;
+    justify-items: center;
+    margin-top: 10%;
+    color: blue;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as desired */
+    background-color: #90fcf9;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  nav a:hover {
+    background-color: #7641F1;
+    color: #90fcf9; /* Adjust text color when hovered over */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 7em;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  main > * {
+    margin-bottom: 10px;
+  }
+  .first-picture {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section > * {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: black;
+    border-top: 1px solid #90fcf9;
+    color: #90fcf9;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .social {
+    display: inline-block;
+    margin: 0 10px;
+    }
+    
+    .footer-pictures{
+        width: 100px;
+        border-radius: 30px;
+    }
+    
+    footer a {
+    color: #90fcf9;
+    text-decoration: none;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
+    footer a:hover {
+    text-decoration: underline;
+    }
