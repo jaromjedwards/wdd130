@@ -32,6 +32,8 @@ h1 {
 grid-row: 1;
 margin-top: 25%;
 color: #90fcf9;
+font-family: 'Mukta', sans-serif;
+font-weight: 300;
 }
 
 nav {
@@ -75,7 +77,9 @@ color: #90fcf9;
 grid-column: 2 / 4;
 margin: 2em;
 margin-top: 4em;
-font-size: 1.18em;
+font-size: 1.04em;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
 }
 
 div {
